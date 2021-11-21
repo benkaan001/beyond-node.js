@@ -12,6 +12,15 @@ const sayHi = require('./5-utils');
 
 
 
+const data = require('./6-alternative-flavor');
+console.log(data); // ========> { items: [ 'item1', 'item2' ], singlePerson: { name: 'bob' } }
+
+
+
+// when you import a module, you invoke any function that is within that module
+require('./7-mind-granade'); // =======>  The sum is : 300
+
+
 
 // sayHi('susan');
 // sayHi(john);
